@@ -1,0 +1,39 @@
+body{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    box-sizing: border-box;
+
+}
+
+*{
+    margin: 0;
+    
+}
+.container{
+    
+    position: relative;
+    background-repeat: no-repeat;
+    height: 280px;
+    
+    background-size: 500px;
+    margin-top: 2rem;
+    background-image: linear-gradient(to left, black, 0.6);
+    border-radius: 10px 10px 10px 10px;
+    border: 1px solid red;
+    
+}
+
+.img{
+    margin: 3px;
+    height: 8rem;
+    width: 5rem;
+}
+
+.title{
+    color: rgb(242, 0, 255);
+    
+    position: absolute;
+    top: 2px;
+    left: 6rem;
+}
